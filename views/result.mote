@@ -1,10 +1,5 @@
-<table class="table table-striped">
-  <tr>
-    <th> Email </th>
-  </tr>
-    % entry.each do |e|
-      <tr>
-        <td>{{e.fetch("gd$email").first.fetch('address')}}</td>
-      </tr>
-    % end
-</table>
+% if result
+  <b>Snippet of first matching email</b>: {{ result.fetch("snippet") }}
+% else
+  No matching emails
+%end

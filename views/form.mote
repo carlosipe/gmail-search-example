@@ -1,0 +1,8 @@
+<form>
+  <div class="form-group">
+    <label for="words">Query:</label>
+    <input name="words" id="words" type="text">
+    <input name="token" id="words" type="hidden" value="{{token}}">
+  <input type="submit" value="Search">
+</form>
+<p> It shows a snippet of the first matching email</p>

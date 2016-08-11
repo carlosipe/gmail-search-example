@@ -1,1 +1,1 @@
-<a href="{{ link }}"> Get authorization </a>
+<a href="{{link}}">Authorize</a>
