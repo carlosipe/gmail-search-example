@@ -45,7 +45,7 @@ Cuba.define do
     words = URI::encode(words)
     url = "https://www.googleapis.com/gmail/v1/users/me/messages?alt=json&v=3.0&access_token=#{token}&q=#{words}"
     result = JSON.parse(Requests.request(:get, url).body)
-    messages = result.fetch("messages")
+    messages = result.fetch("messages") {}
     first_message = messages.first
     m = nil
     if first_message
