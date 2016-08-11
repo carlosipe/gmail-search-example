@@ -1,0 +1,10 @@
+<table class="table table-striped">
+  <tr>
+    <th> Email </th>
+  </tr>
+    % entry.each do |e|
+      <tr>
+        <td>{{e.fetch("gd$email").first.fetch('address')}}</td>
+      </tr>
+    % end
+</table>

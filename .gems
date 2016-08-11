@@ -1,0 +1,5 @@
+cuba -v 3.6.0
+mote-render -v 1.1.0
+mote -v 1.1.4
+signet -v 0.7.3
+requests -v 1.0.0
